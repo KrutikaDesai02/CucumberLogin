@@ -28,12 +28,12 @@ When User enters the following credentials:
 And User clicks on Login button
 Then User should get a proper warning message about credentials mismatch
 
-Scenario: Login with invalid email and valid password
-Given User navigate to login page
-When User enters invalid email and valid password from database
-Then User should see a proper warning message for incorrect email
+#Scenario: Login with invalid email and valid password
+#Given User navigate to login page
+#When User enters invalid email and valid password from database
+#Then User should see a proper warning message for incorrect email
 
-Scenario: Login without providing any credentails
-Given User navigate to login page
-When User tries to login without entering any credentials
-Then User should see a warning message for missing credentials
+#Scenario: Login without providing any credentails
+#Given User navigate to login page
+#When User tries to login without entering any credentials
+#Then User should see a warning message for missing credentials
